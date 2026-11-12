@@ -1,0 +1,58 @@
+{
+  "title" : "JudgeRequirementsResult",
+  "lightning:type" : "lightning__objectType",
+  "properties" : {
+    "mustTotalPT" : {
+      "title" : "mustTotalPT",
+      "description" : "Total number of must-have requirements listed in MUST-HAVES. Count one per line.",
+      "lightning:type" : "lightning__integerType"
+    },
+    "mustMetPT" : {
+      "title" : "mustMetPT",
+      "description" : "How many must-haves are MET: the card shows them, with a quote or strong implication. Never more than mustTotal.",
+      "lightning:type" : "lightning__integerType"
+    },
+    "mustPartlyPT" : {
+      "title" : "mustPartlyPT",
+      "description" : "How many must-haves are PARTLY shown: some evidence but not complete. mustMet plus mustPartly must not be more than mustTotal.",
+      "lightning:type" : "lightning__integerType"
+    },
+    "niceTotalPT" : {
+      "title" : "niceTotalPT",
+      "description" : "Total number of nice-to-have requirements listed in NICE-TO-HAVES. Use 0 if the list is empty.",
+      "lightning:type" : "lightning__integerType"
+    },
+    "niceMetPT" : {
+      "title" : "niceMetPT",
+      "description" : "How many nice-to-haves are MET in the card. Never more than niceTotal.",
+      "lightning:type" : "lightning__integerType"
+    },
+    "nicePartlyPT" : {
+      "title" : "nicePartlyPT",
+      "description" : "How many nice-to-haves are PARTLY shown. niceMet plus nicePartly must not be more than niceTotal.",
+      "lightning:type" : "lightning__integerType"
+    },
+    "conflictCountPT" : {
+      "title" : "conflictCountPT",
+      "description" : "Number of items listed under “Conflicting details” in the candidate card. Use 0 if it says None.",
+      "lightning:type" : "lightning__integerType"
+    },
+    "strengthsPT" : {
+      "title" : "strengthsPT",
+      "description" : "Two to four short sentences on the candidate’s strongest points for this role, citing short quotes from the card.",
+      "lightning:type" : "lightning__textType"
+    },
+    "gapsPT" : {
+      "title" : "gapsPT",
+      "description" : "Requirements that are not shown or only partly shown, plus conflicts or missing data in the card, and what to ask in the interview.",
+      "lightning:type" : "lightning__textType"
+    },
+    "detailPT" : {
+      "title" : "detailPT",
+      "description" : "One line per requirement: [MUST or NICE] requirement, then MET, PARTLY or NOT SHOWN, then a short quote (no quote for NOT SHOWN).",
+      "lightning:type" : "lightning__textType"
+    }
+  },
+  "required" : [ ],
+  "description" : ""
+}

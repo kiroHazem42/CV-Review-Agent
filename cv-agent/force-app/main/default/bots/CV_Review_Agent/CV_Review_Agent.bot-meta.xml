@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <agentDSLEnabled>true</agentDSLEnabled>
+    <agentTemplate>EmployeeCopilot__AgentforceEmployeeAgent</agentTemplate>
+    <agentType>AgentforceEmployeeAgent</agentType>
+    <botMlDomain>
+        <label>CV Review Agent</label>
+        <name>CV_Review_Agent</name>
+    </botMlDomain>
+    <botSource>None</botSource>
+    <description>Helps recruiters search processed candidates, evaluate and rank them against a job role with transparent scores, and bookmark candidates with notes.</description>
+    <label>CV Review Agent</label>
+    <logPrivateConversationData>false</logPrivateConversationData>
+    <richContentEnabled>true</richContentEnabled>
+    <sessionTimeout>0</sessionTimeout>
+    <type>InternalCopilot</type>
+</Bot>

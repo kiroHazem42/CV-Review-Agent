@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0B5CAB</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Upload CVs, review candidates, evaluate them against job roles and keep bookmarks.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>CV Analyzer</label>
+    <navType>Standard</navType>
+    <tabs>Cv_Analyser</tabs>
+    <tabs>Candidate_c__c</tabs>
+    <tabs>Role_c__c</tabs>
+    <tabs>Evaluation__c</tabs>
+    <tabs>Candidate_Bookmark__c</tabs>
+    <tabs>Agent_Audit_Log__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

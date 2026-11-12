@@ -1,0 +1,14 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "resultText" : {
+      "title" : "Result Text",
+      "description" : "The ranking and comparison in Markdown (ranks start at 1, ends with a question about bookmarking and notes), or a question for the recruiter. Show it to the recruiter in full, keeping the Markdown formatting.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

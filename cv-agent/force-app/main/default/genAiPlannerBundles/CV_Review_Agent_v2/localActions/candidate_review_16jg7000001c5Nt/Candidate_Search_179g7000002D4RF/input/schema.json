@@ -1,0 +1,49 @@
+{
+  "required" : [ ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "candidateName" : {
+      "title" : "Candidate Name",
+      "description" : "Part of the candidate name. Leave empty for any name.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "includeCards" : {
+      "title" : "Include Cards",
+      "description" : "True only when the recruiter's question needs details from the CVs. Limits the result to 8 candidates.",
+      "lightning:type" : "lightning__booleanType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "location" : {
+      "title" : "Location",
+      "description" : "Part of the city or country, for example Madrid. Leave empty for any location.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "maxResults" : {
+      "title" : "Max Results",
+      "description" : "How many candidates to return. Default 25, maximum 50. Leave empty unless the recruiter asks for a number.",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "minYears" : {
+      "title" : "Minimum Years",
+      "description" : "Minimum years of experience, for example 10 means 10 or more. Leave empty for any.",
+      "lightning:type" : "lightning__numberType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "skill" : {
+      "title" : "Skill",
+      "description" : "A skill the candidate must have, for example LWC. Leave empty for any skill.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

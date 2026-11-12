@@ -1,0 +1,4 @@
+# Salesforce CLI local cache (org usernames / ids)
+.sf/
+.sfdx/
+

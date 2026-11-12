@@ -1,0 +1,35 @@
+{
+  "required" : [ ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "candidateId" : {
+      "title" : "Candidate Ids",
+      "description" : "The Salesforce Id of one candidate, or several Ids separated by commas. Use only if you already have them.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "candidateName" : {
+      "title" : "Candidate Names",
+      "description" : "The name or part of the name of one candidate, or several names separated by commas (for example Ahmed, Maria, Priya), up to 10. Leave empty to compare the most recent candidates.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "roleId" : {
+      "title" : "Role Id",
+      "description" : "The Salesforce Id of the job role. Use only if you already have it.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "roleName" : {
+      "title" : "Role Name",
+      "description" : "The role title or part of it, for example Senior Salesforce Developer. Use when the recruiter names the role.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

@@ -1,0 +1,35 @@
+{
+  "required" : [ ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "candidateName" : {
+      "title" : "Candidate Name",
+      "description" : "The name or part of the name of the candidate to bookmark.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "evaluationId" : {
+      "title" : "Evaluation Id",
+      "description" : "The Id or number (for example EVAL-00003) of a saved evaluation. Use only if you already have it.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "notes" : {
+      "title" : "Notes",
+      "description" : "Optional notes from the recruiter to save with the bookmark, in the recruiter's own words.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "roleName" : {
+      "title" : "Role Name",
+      "description" : "The role the candidate was evaluated for, or part of its title. Leave empty if only one role was evaluated.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

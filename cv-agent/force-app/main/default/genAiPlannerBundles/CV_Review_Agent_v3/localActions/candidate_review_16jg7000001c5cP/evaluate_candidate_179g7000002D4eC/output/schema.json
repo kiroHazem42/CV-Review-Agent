@@ -1,0 +1,14 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "resultText" : {
+      "title" : "Result Text",
+      "description" : "The ranking as plain labelled facts, one block per candidate (rank starting at 1, name, score, recommendation, confidence, points, strengths, gaps and risks), or a question for the recruiter. Present every fact to the recruiter in a clean, readable layout; do not change any number.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

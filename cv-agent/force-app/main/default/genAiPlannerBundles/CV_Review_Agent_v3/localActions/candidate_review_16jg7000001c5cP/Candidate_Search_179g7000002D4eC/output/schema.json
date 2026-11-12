@@ -1,0 +1,14 @@
+{
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "resultText" : {
+      "title" : "Result Text",
+      "description" : "The list of matching candidates (name, Id, years, title, location) and a summary line, or a message when nobody matches. Show this to the recruiter.",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isDisplayable" : true,
+      "copilotAction:isUsedByPlanner" : true
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

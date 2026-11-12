@@ -1,0 +1,54 @@
+{
+  "lightning:supportsPersonalization" : true,
+  "description" : "for candidat's object fields",
+  "lightning:type" : "lightning__objectType",
+  "title" : "OutputForCandidteFields",
+  "required" : [ ],
+  "properties" : {
+    "NamePT" : {
+      "title" : "NamePT",
+      "description" : "Full name of the candidate as written in the CV. Returns MISSING if the CV does not state it",
+      "lightning:type" : "lightning__textType"
+    },
+    "EmailPT" : {
+      "title" : "EmailPT",
+      "description" : "Candidate's email address as written in the CV. leave it empty if you didn't find email",
+      "lightning:type" : "lightning__textType"
+    },
+    "PhonePT" : {
+      "title" : "PhonePT",
+      "description" : "Candidate's phone number as written in the CV. Returns MISSING if not stated.",
+      "lightning:type" : "lightning__textType"
+    },
+    "LocationPT" : {
+      "title" : "LocationPT",
+      "description" : "City and country where the candidate is based, as stated in the CV. Returns MISSING if not stated.",
+      "lightning:type" : "lightning__textType"
+    },
+    "CurrentTitlePT" : {
+      "title" : "CurrentTitlePT",
+      "description" : "Current or most recent job title from the CV. Returns MISSING if not stated.",
+      "lightning:type" : "lightning__textType"
+    },
+    "TotalYearsExperiencePT" : {
+      "title" : "TotalYearsExperiencePT",
+      "description" : "The total number of years of experience that the CV text itself claims, as a whole number (for example 12 for \"over 12 years of experience\"). Leave empty if the CV claims no number. Never calculate it: the system works out the real years from JobPeriodsPT.",
+      "lightning:type" : "lightning__textType"
+    },
+    "JobPeriodsPT" : {
+      "title" : "JobPeriodsPT",
+      "description" : "Every job in the CV that has a written start date and end date, whatever the field of work. One entry per job as START/END, entries separated by semicolons. Dates as YYYY-MM, or YYYY when the CV gives only the year. Use Present for a current job. Example: 2018-09/2021-01; 2021-02/Present. Never guess a date: leave out jobs without written dates. Empty if no job has dates.",
+      "lightning:type" : "lightning__textType"
+    },
+    "SkillsPT" : {
+      "title" : "SkillsPT",
+      "description" : "Up to 15 main skills from the CV, separated by commas, maximum 250 characters.",
+      "lightning:type" : "lightning__textType"
+    },
+    "CandidateCardPT" : {
+      "title" : "CandidateCardPT",
+      "description" : "The full candidate profile as plain text, exactly as the prompt describes: the header block (NAME, EMAIL, PHONE, LOCATION, TITLE, YEARS, SKILLS) followed by the sections Top summary, Missing information, Inferred data, Conflicting details, Skills, Experience, Education and certifications, Achievements. No formatting symbols such as ## or **.",
+      "lightning:type" : "lightning__textType"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strong_Matches</fullName>
+    <columns>NAME</columns>
+    <columns>Candidate_Name__c</columns>
+    <columns>Role__c</columns>
+    <columns>Score__c</columns>
+    <columns>Confidence__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Recommendation__c</field>
+        <operation>equals</operation>
+        <value>Strong</value>
+    </filters>
+    <label>Strong Matches</label>
+</ListView>
